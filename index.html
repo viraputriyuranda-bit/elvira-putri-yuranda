@@ -1,0 +1,273 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Vira Putri Yuranda</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Vira Portfolio</div>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<section class="hero" id="home">
+
+  <div class="hero-text">
+
+    <h1>Hi, I'm <span>Elvira Putri yuranda</span></h1>
+
+    <h3>Informatics Student</h3>
+
+    <p>
+      I am interested in technology,
+      UI/UX design, and web development.
+    </p>
+
+    <!-- Tombol Contact -->
+    <a href="#contact" class="btn">
+      Contact Me
+    </a>
+
+  </div>
+
+  <!-- FOTO -->
+  <div class="hero-image">
+
+    <img src="pp.jpeg" alt="Elvira">
+
+  </div>
+
+</section>
+
+  <!-- About -->
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about-container">
+
+      <div class="card">
+        <h3>About</h3>
+
+        <p>
+          I am a student of the Faculty of Computer Science and Information Technology at Universitas Muhammadiyah Sumatera Utara (UMSU). 
+          I have a strong interest in technology, especially web development and programming. I am a disciplined, responsible, and 
+          fast-learning person who enjoys learning new things and improving technical skills. I am also able to work independently 
+          and collaboratively in a team environment.
+        </p>
+      </div>
+
+      <div class="card">
+
+      <div class="card">
+        <h3>Interest</h3>
+
+        <p>
+        My interests are modeling, dancing
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill">
+
+      <p>Public Speaking</p>
+
+      <div class="bar">
+        <div class="fill public speaking">100%</div>
+      </div>
+
+    </div>
+
+    <div class="skill">
+
+      <p>Modern Dance</p>
+
+      <div class="bar">
+        <div class="fill modern dance">100%</div>
+      </div>
+
+    </div>
+
+    <div class="skill">
+
+      <p>Model</p>
+
+      <div class="bar">
+        <div class="fill model">100%</div>
+      </div>
+      <div class="skill">
+
+
+      <p>Video editing</p>
+
+      <div class="bar">
+        <div class="fill model">100%</div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+
+    <h2>Education</h2>
+
+    <div class="education-container">
+
+      <div class="edu-card">
+        <h3>Universitas Muhammadiyah Sumatera Utara</h3>
+        <p>Information Technology Student</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>SMKS Nur Azizi Tanjung Morawa</h3>
+      </div>
+
+      <div class="edu-card">
+        <h3>SMP Negeri 1 Tanjung Morawa</h3>
+      </div>
+
+      <div class="edu-card">
+        <h3>SDN 101886 Kiri Hulu 1</h3>
+      </div>
+      <!-- Projects -->
+<section id="projects" class="gallery">
+
+  <h2>My Certification</h2>
+
+  <div class="slider">
+
+    <div class="slides">
+
+      <img src="sertifikat1.jpeg" alt="Project 1">
+      <img src="sertifikat2.jpeg" alt="Project 2">
+      <img src="sertifikat3.jpeg" alt="Project 3">
+      <img src="sertifikat4.jpeg" alt="Project 3">
+      <img src="sertifikat6.jpeg" alt="Project 3">
+      <img src="sertifikat7.jpeg" alt="Project 3">
+      <img src="sertifikat8.jpeg" alt="Project 3">
+      <img src="sertifikat9.jpeg" alt="Project 3">
+
+    </div>
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+
+  </div>
+
+</section>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="contact-box">
+
+      <p>Email:</p>
+      <h3>viraputriyuranda@gmail.com</h3>
+
+      <br>
+
+      <p>Instagram:</p>
+
+      <h3>
+        <h3>
+  <a href="https://www.instagram.com/viraaput_" target="_blank">
+    @viraaput
+  </a>
+</h3>
+<p>
+    WhatsApp:
+</p>
+      <h>0831-9965-7352</h3>
+
+    </div>
+    <div class="maps">
+
+  <h3>My Addres</h3>
+
+  <a href="https://maps.app.goo.gl/5K8mnvzPr1RwnW4w6?g_st=aw" target="_blank">
+    Open Location
+  </a>
+
+</div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Vira Putri Yuranda | Portfolio Website</p>
+  </footer>
+
+</body>
+<script>
+
+let slideIndex = 0;
+
+function showSlide(index){
+
+  const slides =
+  document.querySelector('.slides');
+
+  const totalSlides =
+  document.querySelectorAll('.slides img').length;
+
+  if(index >= totalSlides){
+    slideIndex = 0;
+  }
+
+  if(index < 0){
+    slideIndex = totalSlides - 1;
+  }
+
+  slides.style.transform =
+  `translateX(-${slideIndex * 100}%)`;
+}
+
+function nextSlide(){
+  slideIndex++;
+  showSlide(slideIndex);
+}
+
+function prevSlide(){
+  slideIndex--;
+  showSlide(slideIndex);
+}
+
+</script>
+</html>
